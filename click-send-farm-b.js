@@ -1,4 +1,3 @@
-javascript:
 if (!window.location.href.includes("screen=am_farm")) {
     window.location.href = game_data.link_base_pure + "am_farm"
 }
