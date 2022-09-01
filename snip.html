@@ -1,0 +1,17 @@
+$($('#command-data-form').find('tbody')[0]).append(`<tr>
+    <td>Chegada:</td>
+    <td> 
+        <input type="datetime-local" id="arrivalTime" step=".001"> 
+    </td>
+</tr>
+<tr>
+    <td>Envio:</td>
+    <td> 
+        <input type="datetime-local" id="shippingTime" readonly step=".001"> 
+    </td>
+</tr>
+<tr>
+    <td> 
+        <button type="button" id="toSchedule" class="btn">Agendar</button> 
+    </td>
+</tr>`);
